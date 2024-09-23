@@ -1,3 +1,5 @@
+import 'package:first_project/basic_widgets/image%20_widget.dart';
+import 'package:first_project/basic_widgets/text_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -105,9 +107,8 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'MONGGO DI KLIK:',
-            ),
+            const MyTextWidget(),
+            const MyImageWidget(),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,

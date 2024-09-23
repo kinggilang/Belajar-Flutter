@@ -5,9 +5,9 @@ class MyTextWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    returt conts Text
-    "Nama saya gilang bagus tp",
-    style: TextStyle(color: Colors.blue, fontSize: 14),
-    textAlign: TextAlign.center)
+    return const Text(
+        "Nama saya gilang, sedang belajar Pemrograman Mobile",
+        style: TextStyle(color: Colors.red, fontSize: 14),
+        textAlign: TextAlign.center);
   }
 }
