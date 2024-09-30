@@ -10,4 +10,3 @@ class MyTextWidget extends StatelessWidget {
         style: TextStyle(color: Colors.red, fontSize: 14),
         textAlign: TextAlign.center);
   }
-}
